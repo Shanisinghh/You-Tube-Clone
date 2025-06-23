@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@theme {
+  --breakpoint-md: 770px;
+  --breakpoint-mdd: 474px;
+  --breakpoint-xsm: 350px;
+}
+.myscrolbar::-webkit-scrollbar {
+  width: 0px;
+}
+.myscrolbar {
+  border-right: 2px solid #e5e7eb;
+}
+
+/* .hidden{
+    transform: scale(0);
+    transition: all .2s;
+    transform-origin: top;
+}
+.active{
+      transform: scale(1);
+
+    transition: all .2s;
+    transform-origin: top;
+} */
+.hiddenn {
+  position: fixed;
+  left: -333px;
+  transition: all 0.3s linear;
+  background-color: white;
+  z-index: 1000;
+}
+.visiblee {
+  left: 0;
+  transition: all 0.3s linear;
+  background-color: white;
+}
+
+/* .sidebar{
+display: none;
+animation: slideIn 0.3s ease-in-out;
+}
+.hidden{
+  display: block;
+  animation: slideIn 0.3s ease-in-out;
+} */
+/*
+} */
