@@ -38,7 +38,7 @@ function Navbar() {
             <HiOutlineBars3 className="text-2xl cursor-pointer font-bold m-1 md:mx-3" />
           </div>
           <div>
-            <img src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png" className="h-14" />
+            <img src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png" className="md:h-14 h-13" />
             {/* <img src="\src\assets\photo.png" className="h-8" /> */}
           </div>
         </div>
@@ -47,12 +47,12 @@ function Navbar() {
             id="search"
             type="text"
             placeholder="Search"
-            className="text-xl   outline-none px-3.5 border border-gray-400 md:ml-11 ml-1.5 h-10 md:w-[40vw] w-[35vw] rounded-l-3xl "
+            className="text-[16px] font-semibold  outline-none px-3.5 border border-gray-400 md:ml-11 ml-1.5 md:h-10 h-9 md:w-[40vw] w-[35vw] rounded-l-3xl "
           />
           <button
             onClick={handleSearch}
             id="button"
-            className="outline-none border bg-gray-100 border-gray-400 h-10  rounded-r-3xl w-10 md:w-[5vw] hover:bg-gray-300"
+            className="outline-none border bg-gray-100 border-gray-400 md:h-10 h-9 rounded-r-3xl w-10 md:w-[5vw] hover:bg-gray-300"
           >
             <IoIosSearch className="text-2xl m-auto" />
           </button>
