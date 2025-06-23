@@ -74,12 +74,12 @@ function VedioPlayer() {
               <div className="flex  items-center justify-between mr-5 md:mr-0 xsm:gap-0.5  gap-3 md:gap-5 md:mb-0  mb-4">
                 <div className="flex items-center xsm:gap-1 gap-3 xsm:pr-0 pr-3.5">
                   <div className="h-11 w-11 rounded-full  bg-gray-700"> </div>
-                  <div className="flex  items-center   gap-2 md:gap-0 md:flex-col">
-                    <h3 className="text-md xsm:text-md font-semibold">
+                  <div className="flex xsm:flex-col  items-center  md:gap-0 md:flex-col">
+                    <h3 className="text-md xsm:text-sm font-semibold">
                       {" "}
                       {video?.author?.title}
                     </h3>
-                    <p className="font-semibold text-gray-600 ml-3  text-sm">
+                    <p className="font-semibold text-gray-600 ml-1  text-xs">
                       {" "}
                       {calculateViews(video?.stats?.views)} subscribers
                     </p>
@@ -143,10 +143,10 @@ function VedioPlayer() {
 
                   <div className="w-[90%]">
                     <h3 className="text-md font-semibold text-gray-900">
-                      User name
+                      Sam
                     </h3>
                     <p className="text-sm text-gray-800">
-                      content of commentwjbwdk qwudqbwkd khqwbd qwkduw diud
+                      Very nioce vedio, I like it.
                     </p>
                   </div>
                 </div>
