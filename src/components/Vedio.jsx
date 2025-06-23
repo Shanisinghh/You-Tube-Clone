@@ -34,14 +34,14 @@ function Vedio({ video }) {
   return (
     <>
       <Link to={`/video/${video?.videoId}`}>
-        <div className="  w-[95vw] md:w-[26vw] hover:bg-gray-200 duration-200 ease-in-out  pb-1.5 rounded-2xl mx-3 md:mx-0">
-          <div className="h-60 md:h-52 relative  w-[100%] rounded-2xl p-2  md:w-[26vw] text-center ">
+        <div className=" w-[100vw] md:w-[26vw] rounded-2xl hover:bg-gray-200 duration-200 ease-in-out  pb-1.5  md:mx-0">
+          <div className="  md:h-52 relative xsm:h-57  sm:h-60 w-[100%] rounded-2xl md:p-2 md:w-[26vw] text-center ">
             <img
               src={video?.thumbnails[0]?.url}
-              className="h-full w-full rounded-2xl"
+              className="h-full w-full md:rounded-2xl "
               alt="search result"
             />
-            <span className="absolute right-[18px] bottom-[18px] bg-[rgba(0,0,0,0.8)] px-1.5 rounded-md text-gray-200 text-sm ">
+            <span className="absolute right-[10px] bottom-[10px] bg-[rgba(0,0,0,0.8)] px-1.5 rounded-md text-gray-200 text-sm ">
               {convertSecondstoTime(video?.lengthSeconds)}
             </span>
           </div>

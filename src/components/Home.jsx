@@ -18,8 +18,9 @@ function Home() {
           <ListItems />
           <div className="flex justify-center md:ml-[210px] items-center h-screen">
             <img
-              src="\src\assets\loding.webp"
-              className="h-25"
+              // src="\src\assets\loding.webp"
+              src="https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif"
+              className="h-15"
               alt="Loading..."
             />
           </div>
@@ -48,7 +49,7 @@ function Home() {
         <div className="mt-17">
           <Sidebar />
           <ListItems />
-          <div className="absolute flex gap-1 overflow-hidden mt-15 flex-wrap md:left-[18%] ">
+          <div className="absolute flex md:gap-4 gap-1 overflow-hidden mt-15 flex-wrap md:left-[18%] ">
             {data.map((item) => {
               if (item.type !== "video") return false;
               return <Vedio key={item.id} video={item?.video} />;
