@@ -115,7 +115,7 @@ function VedioPlayer() {
               <div className="flex items-center mx-1 gap-3 mt-2">
                 <div className="h-10 w-10 rounded-full bg-gray-700">
                   <img
-                    src="\src\assets\photo.png"
+                    src="https://scontent.flko13-1.fna.fbcdn.net/v/t39.30808-6/453774718_849100123847724_4893929885923905717_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aqssYXpJOh0Q7kNvwFJxDJV&_nc_oc=Admru0IzTmlFeJrBmF2Uncnab8YAdkbWM5zsb-SkbsUkbTSztQEy6q_Lbs78h4KgAoY&_nc_zt=23&_nc_ht=scontent.flko13-1.fna&_nc_gid=PJuKtOM9FQd1APlz6Ws9oQ&oh=00_AfPmRL-GD98xZpk-cGDKtvVuFJeEQdLUm5EPfxcD7IOvCA&oe=685F583B"
                     className="overflow-hidden h-10 w-10 rounded-full"
                     alt=""
                   />

@@ -38,7 +38,7 @@ function Navbar() {
             <HiOutlineBars3 className="text-2xl cursor-pointer font-bold m-1 md:mx-3" />
           </div>
           <div>
-            <img src="\src\assets\logo.png" className="h-8" />
+            <img src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png" className="h-14" />
             {/* <img src="\src\assets\photo.png" className="h-8" /> */}
           </div>
         </div>
@@ -66,7 +66,7 @@ function Navbar() {
           </button>
           <GoBell className="text-2xl hidden md:block" />
           <img
-            src="\src\assets\photo.png"
+            src="https://scontent.flko13-1.fna.fbcdn.net/v/t39.30808-6/453774718_849100123847724_4893929885923905717_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aqssYXpJOh0Q7kNvwFJxDJV&_nc_oc=Admru0IzTmlFeJrBmF2Uncnab8YAdkbWM5zsb-SkbsUkbTSztQEy6q_Lbs78h4KgAoY&_nc_zt=23&_nc_ht=scontent.flko13-1.fna&_nc_gid=PJuKtOM9FQd1APlz6Ws9oQ&oh=00_AfPmRL-GD98xZpk-cGDKtvVuFJeEQdLUm5EPfxcD7IOvCA&oe=685F583B"
             className="h-9 rounded-full  bg-gray-100"
             alt="user photo"
           />
