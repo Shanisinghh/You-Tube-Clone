@@ -32,10 +32,10 @@ function Navbar() {
 
   return (
     <>
-      <div className="flex fixed w-screen top-0 bg-white z-50 justify-between mdpx-2 px-0.5 py-2 pb-5">
+      <div className="flex fixed w-screen top-0 bg-white z-50 justify-between  px-0.5 py-2 pb-5">
         <div className="flex justify-center items-center">
           <div onClick={handlemenu}>
-            <HiOutlineBars3 className="text-2xl cursor-pointer font-bold m-1 md:mx-3" />
+            <HiOutlineBars3 className="text-3xl cursor-pointer font-bold m-0.5 md:mx-2" />
           </div>
           <div>
             <img src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png" className="md:h-14 h-13" />
@@ -47,7 +47,7 @@ function Navbar() {
             id="search"
             type="text"
             placeholder="Search"
-            className="text-[16px] font-semibold  outline-none px-3.5 border border-gray-400 md:ml-11 ml-1.5 md:h-10 h-9 md:w-[40vw] w-[35vw] rounded-l-3xl "
+            className="text-[16px] font-semibold  outline-none px-3.5 border border-gray-400 md:ml-11  md:h-10 h-9 md:w-[40vw] w-[35vw] rounded-l-3xl "
           />
           <button
             onClick={handleSearch}

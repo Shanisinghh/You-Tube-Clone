@@ -7,7 +7,7 @@ export const DataContext = createContext();
 export const DataProvider = ({ children }) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [value, setValue] = useState("chai our code");
+  const [value, setValue] = useState("songs ");
 
   useEffect(() => {
     fetchAlldata(value);

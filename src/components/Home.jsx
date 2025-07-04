@@ -20,7 +20,7 @@ function Home() {
             <img
               // src="\src\assets\loding.webp"
               src="https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif"
-              className="h-15"
+              className="xsm:h-11 md:h-15"
               alt="Loading..."
             />
           </div>
